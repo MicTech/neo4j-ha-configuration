@@ -8,6 +8,10 @@ HA cluster
 1x neo4j arbiter  
 1x HAproxy  
 
+###Neo4j configuration
+- online backups disabled
+- auth to access disabled
+
 ###HAproxy configuration
 
 Configuration is optimized for reads and writes. All HTTP state-changing operation (POST, PUT, DELETE) are redirected to master and read (GET) operation to slaves.
