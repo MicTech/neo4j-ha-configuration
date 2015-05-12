@@ -19,3 +19,9 @@ Configuration is optimized for reads and writes. All HTTP state-changing operati
 ####Transactional Cypher HTTP endpoint
 
 Redirection of read and writes will not work for Cypher HTTP endpoint, because it's using POST method for all Cypher statements (reads and writes).
+
+
+create.sh
+---------------------
+
+Script which will install Neo4j cluster on your local machine for the purpose of testing.
