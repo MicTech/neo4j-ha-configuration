@@ -1,13 +1,15 @@
 #!/bin/bash
 
+VERSION=2.2.2
+
 #Download neo4j
-wget -O neo4j.tar.gz 'http://neo4j.com/artifact.php?name=neo4j-enterprise-2.2.1-unix.tar.gz'
+wget -O neo4j.tar.gz 'http://neo4j.com/artifact.php?name=neo4j-enterprise-$VERSION-unix.tar.gz'
 
 #Unpack
 tar -xzf neo4j.tar.gz
 
 #Create directory
-mv neo4j-enterprise-2.2.1 neo4j-cluster-1
+mv neo4j-enterprise-$VERSION neo4j-cluster-1
 
 #Copy
 cp -r neo4j-cluster-1 neo4j-cluster-2
