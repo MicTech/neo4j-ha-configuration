@@ -1,6 +1,8 @@
 Neo4j HA cluster configuration (example)
 ====================
 
+https://github.com/MicTech/neo4j-ha-configuration
+
 HA cluster
 ---------------------
 
