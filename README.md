@@ -18,6 +18,8 @@ HA cluster
 
 Configuration is optimized for reads and writes. All HTTP state-changing operation (POST, PUT, DELETE) are redirected to master and read (GET) operation to slaves.
 
+[neo4j and haproxy: some best practices and tricks](http://blog.armbruster-it.de/2015/08/neo4j-and-haproxy-some-best-practices-and-tricks/)
+
 ####Transactional Cypher HTTP endpoint
 
 Redirection of read and writes will not work for Cypher HTTP endpoint, because it's using POST method for all Cypher statements (reads and writes).
